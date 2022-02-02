@@ -1,22 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>Telefónica</title>
     <style>
-        p{
+        table, th, td {
+            border-collapse: collapse;
+            border: 1px solid #52B2CF;
         }
     </style>
-    <title>Telefónica</title>
 </head>
-<body>
 
-<h1> Telefónica</h1>
-<p>This is a paragraph.</p>
-<p>This is the second paragraph with a
-    <a href="https://www.telefonica.com/es/sostenibilidad-innovacion/innovacion/innovacion-interna/"> link. </a>
+<body>
+<center> <!-- Deprecated, pero es la única manera simple de conseguirlo con html-->
+    <img src="logo.gif" alt="logo Telefonica" width="384" height="216"/>
+</center>
+
+<h1 style = "font-family:arial;text-align:center"> <!-- Esto es CSS-->
+    Bienvenido a Telefónica
+</h1>
+<h3 style = "font-family:georgia; font-style:italic; text-align:center"> <!-- Esto es CSS-->
+    En Telefónica, pensamos que son las personas las que dan sentido a la tecnología y no al revés
+</h3>
+<p style = "font-family: sans-serif"> <!-- Esto es CSS-->
+    En un momento en el que la tecnología está más presente que nunca en nuestras vidas, no podemos olvidar que las conexiones más importantes son las conexiones humanas. Porque en la sociedad de hoy en día, la calidad de vida de las personas depende en gran medida de esa conexión.
+</p>
+<p style = "font-family: sans-serif"> <!-- Esto es CSS-->
+    Y es aquí donde entramos nosotros. Ofreciendo conexiones que unan a las personas, en lugar de aislarlas; conexiones que inviten a las personas a ser ellas mismas, a expresarse, a compartir.
+    <a href="https://www.telefonica.com/es/sostenibilidad-innovacion/innovacion/innovacion-interna/"> Investigamos</a>
+     por un futuro mejor para todos.
 </p>
 
-<img src="logo.png" alt="logo Telefonica", style="width:640px;height:154px;">
+<h2 style = "font-family: sans-serif; text-align:center"> <!-- Esto es CSS-->
+    ¿Cómo podemos ayudarte?
+</h2>
+
+<table style="width:100%"> <!-- Esto es CSS-->
+    <tr>
+        <th style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Servicio</th>
+        <th style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Descripción</th>
+        <th style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Enlace</th>
+    </tr>
+    <tr>
+        <td style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Investor Relations</td>
+        <td style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Información y servicios al inversor</td>
+        <td>
+            <a href="investing.html">
+                <img alt="Investor Relations" src="investing.png"
+                     width=70" height="70">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Atención al Cliente</td>
+        <td style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            ¿Tienes un problema? Nos pondremos en contacto contigo</td>
+        <td>
+            <a href="cliente.html">
+                <img alt="Atención al cliente" src="cliente.png"
+                     width=70" height="70">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Consultoría tecnológica</td>
+        <td style = "font-family: sans-serif"> <!-- Esto es CSS-->
+            Déjanos optimizar tu empresa</td>
+        <td>
+            <a href="consulting.html">
+                <img alt="Consultoría" src="consulting.png"
+                     width=70" height="70">
+            </a>
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
